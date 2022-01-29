@@ -1,0 +1,17 @@
+.web-page {
+  width: 100vw;
+  display: block;
+}
+.mobile-page {
+  display: none;
+}
+
+@media screen and (max-width: 400px) {
+  .web-page {
+    display: none;
+  }
+  .mobile-page {
+    width: 100vw;
+    display: block;
+  }
+}
